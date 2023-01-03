@@ -1,0 +1,12 @@
+body{
+  --color-primary : #F4CE14;
+  --color-secondary: #495E57;
+  --black: #333333;
+  --white: #EDEFEE;
+  --orange: #ee9972;
+  --pink: #fbdabb;
+  margin: 0;
+  padding: 0;
+}
+
+

@@ -1,0 +1,182 @@
+h1{
+    color: #F4CE14;
+}
+
+.hero-section{
+    display: flex;
+    justify-content: space-between;
+    color: #EDEFEE;
+    background-color: #495E57;
+    margin-top: 1em;
+    margin-bottom: 100px;
+    padding-inline: 200px
+
+
+}
+
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    width: 25%;
+    
+}
+
+.reserve_button{
+    background-color: var(--white);
+    color: var(--black);
+    background-color: var(--color-primary);
+    border: 1px solid;
+    width: max-content;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.hero-section > img{
+    width: 500px;
+    height: 500px;
+    border-radius: 40px;
+    position: relative;
+    top: 100px;
+}
+
+.specials{
+    margin-inline: 200px;
+    padding: 0;
+
+}
+
+.specials-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.specials >h1{
+    color: var(--black);
+    margin-bottom: 20px;
+}
+
+.dish-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+    height: 400px;
+    background-color: #F4CE14;
+    color: var(--black);
+    border-radius: 20px;
+    margin: 10px;
+    margin-bottom: 50px;
+}
+
+.dish-card > img{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.dish-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: left;
+    background-color: #F4CE14;
+    border-radius: 20px;
+    padding-left: 10px;
+}
+
+
+@media screen and (max-width: 768px){
+    .hero-section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #EDEFEE;
+        background-color: #495E57;
+        margin-top: 1em;
+        margin-bottom: 50px;
+        padding-inline: 0;
+    }
+    
+    .hero-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    
+    .reserve_button{
+        background-color: var(--white);
+        color: var(--black);
+        background-color: var(--color-primary);
+        border: 1px solid;
+        width: max-content;
+        border-radius: 5px;
+        padding: 10px;
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    .hero-section > img{
+        display: none;
+    }
+
+
+    .specials{
+        padding: 0;
+        margin-inline: 0;
+
+    
+    }
+    
+    .specials-container{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    
+    .specials >h1{
+        color: var(--black);
+        margin-bottom: 20px;
+        margin-left: 20px;
+    }
+    
+    .dish-card{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 200px;
+        height: 400px;
+        background-color: #F4CE14;
+        color: var(--black);
+        border-radius: 20px;
+        margin: 10px;
+        margin-bottom: 50px;
+    }
+    
+    .dish-card > img{
+        width: 200px;
+        height: 200px;
+        border-radius: 20px;
+    }
+    
+    .dish-info{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: left;
+        background-color: #F4CE14;
+        border-radius: 20px;
+        padding-left: 10px;
+    }
+}
